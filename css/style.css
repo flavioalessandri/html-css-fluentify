@@ -1,0 +1,22 @@
+/* foglio di stile */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#navbar::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+
+.container-up::after{
+  display: table;
+  content: "";
+  clear: both;
+}
