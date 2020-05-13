@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 12px;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 10px;
 }
 
 main , header{
@@ -22,26 +26,35 @@ header{
 
 
 #navbar{
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   background-color: rgb(12,50,90);
 }
 
 .logo , .menu-company, .menu-user{
+  text-align: center;
   float:left;
 }
 
-.menu-company, .menu-user{
-  margin-left: 4%;
+.menu-company{
+  width: 50%;
+}
+
+.logo{
+  text-align: center;
+  width: 10%;
+}
+
+.menu-user{
+  width: 40%;
 }
 
 .menu-company ul li, .menu-user ul li{
   text-align: center;
   display: inline-block;
-  background-color: red;
   height:40px;
   line-height: 40px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 .menu-company ul li a, .menu-user ul li a{
@@ -51,15 +64,20 @@ header{
   color: white;
 }
 
-.button {
-  background-color: #4CAF50;
-  border-radius: 5px;
-  border: none;
+.button{
+  font-size: 10px;
   color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
+}
 
+.button.green{
+  background-color: #4CAF50;
+  border: none;
 }
 
 
@@ -69,20 +87,47 @@ header{
   clear: both;
 }
 
+.claim{
+  line-height: 50px;
+  width: 30%;
+  position: relative;
+  top:30%;
+  left:20%;
+}
 
+h1{
+  font-size: 30px;
+  color: white;
+  font-weight: normal;
+}
 
+h2{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 14px;
+}
+
+.grigio{
+  color: #8c8987;
+}
 
 
 .bottom{
+  padding: 50px 0;
+  text-align: center;
   height:150px;
-  width:100%;background-color: grey;
+  width:100%;
+  background-color: #d6d4d3;
+  line-height: 25px;
 }
 
 #header-layout{
   background-image: url("../img/fluentify-jumbo.png");
   background-size: contain;
   background-position: bottom;
-  background-color: blue;
+  background-color: rgb(12,50,90);
 }
 
 
