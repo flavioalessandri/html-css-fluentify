@@ -32,7 +32,7 @@ header{
 }
 
 .menu-company, .menu-user{
-  margin-left: 10%;
+  margin-left: 4%;
 }
 
 .menu-company ul li, .menu-user ul li{
@@ -41,6 +41,7 @@ header{
   background-color: red;
   height:40px;
   line-height: 40px;
+  margin-left: 12px;
 }
 
 .menu-company ul li a, .menu-user ul li a{
@@ -50,7 +51,16 @@ header{
   color: white;
 }
 
+.button {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
 
+}
 
 
 #navbar::after{
