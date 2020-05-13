@@ -4,7 +4,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 12px;
 }
+
+main , header{
+  width:100%;
+}
+
+header{
+  background-color: rgb(12,50,90);
+}
+
+#header-layout , #container-up, #container-down{
+  margin: 0 auto;
+  height: 400px;
+}
+
+
+#navbar{
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgb(12,50,90);
+}
+
+.logo , .menu-company, .menu-user{
+  float:left;
+}
+
+.menu-company, .menu-user{
+  margin-left: 10%;
+}
+
+.menu-company ul li, .menu-user ul li{
+  text-align: center;
+  display: inline-block;
+  background-color: red;
+  height:40px;
+  line-height: 40px;
+}
+
+.menu-company ul li a, .menu-user ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 0 15px;
+  color: white;
+}
+
 
 
 
@@ -13,6 +58,28 @@
   content: "";
   clear: both;
 }
+
+
+
+
+
+.bottom{
+  height:150px;
+  width:100%;background-color: grey;
+}
+
+#header-layout{
+  background-image: url("../img/fluentify-jumbo.png");
+  background-size: contain;
+  background-position: bottom;
+  background-color: blue;
+}
+
+
+
+
+
+
 
 
 .container-up::after{

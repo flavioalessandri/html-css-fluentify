@@ -9,42 +9,52 @@
   <body>
 
       <!-- header di pagina -->
-    <header class="layout">
+    <header>
+      <div id="header-layout">
 
-    <!-- CONTENITORE BARRA NAVIGAZIONE -->
-      <div id="navbar">
-        <!-- Posizionare il Logo -->
-        <img src="" alt="logo">
-        <!-- Blocco inline-block del primo menu  -->
-        <div class="menu-company">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
+      <!-- CONTENITORE BARRA NAVIGAZIONE -->
+        <div id="navbar">
+          <!-- Posizionare il Logo -->
+          <div class="logo">
+            <img src="img/fluentify-logo.svg" alt="logo">
+          </div>
 
-        <!-- Blocco inline-block del secondo menu -->
-        <div class="menu-user">
-          <ul>
-            <li></li>
-            <li></li>
-            <li>
-              <button type="button" name="button"></button>
-            </li>
-            <li>
-              <button type="button" name="button"></button>
-            </li>
-          </ul>
+          <!-- Blocco inline-block del primo menu  -->
+          <div class="menu-company">
+            <ul>
+              <li><a href="#">IL METODO</a></li>
+              <li><a href="#">LA TECNOLOGIA</a></li>
+              <li><a href="#">REAL-LIFE ENGLISH</a></li>
+              <li><a href="#">SOLUZIONI AZIENDALI</a></li>
+            </ul>
+          </div>
+
+          <!-- Blocco inline-block del secondo menu -->
+          <div class="menu-user">
+            <ul>
+              <li><a href="#">DIVENTA UN TUTOR</a></li>
+              <li>
+                <button class="button" type="button" name="button">
+                  LOGIN
+                </button>
+              </li>
+              <li>
+                <button class="button green" type="button"  name="button">
+                  STRUTTURA UN PIANO
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <!-- Header - parte bassa -->
-      <div class="bottom">
-        <h2></h2>
-        <h4></h4>
-      </div>
+        <!-- Header - parte bassa -->
+        <div class="bottom">
+          <h2></h2>
+          <h4></h4>
+        </div>
+
+
 
   </header>
   <!-- Fine dell'Header -->
@@ -52,7 +62,7 @@
   <main>
 
     <!-- Main Contenuto parte alta -->
-    <div class="container-up">
+    <div id="container-up">
 
       <!-- colonna Sinistra -->
       <div class="widget">
@@ -70,7 +80,7 @@
 
       <!-- Main Contenuto parte bassa -->
 
-      <div class="container-down">
+      <div id="container-down">
       <img src="" alt="immagine">
       <h2></h2>
       <p></p>
