@@ -165,17 +165,10 @@ h4{
   margin: 0 auto;
 }
 
-.widget-logo{
-  width: 50%;
+.widget img{
+  height: 100px;
 }
 
-.widget-logo.affiancamento{
-  width: 73%;
-}
-
-.widget-logo.monitor{
-  width: 55%;
-}
 
 .widget-hr{
   padding: 0;
